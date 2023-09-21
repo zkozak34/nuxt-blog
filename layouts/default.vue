@@ -1,7 +1,9 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <div class="max-w-4xl w-full mx-auto px-4 py-6">
+    <Header />
+    <slot />
+    <Footer />
+  </div>
 </template>
 
 <script setup lang="ts">

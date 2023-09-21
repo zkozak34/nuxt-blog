@@ -1,8 +1,4 @@
-<template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
-</template>
+<template>Header</template>
 
 <script setup lang="ts">
 // imports
