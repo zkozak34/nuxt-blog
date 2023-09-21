@@ -1,4 +1,9 @@
-<template>Footer</template>
+<template>
+  <footer class="max-w-4xl w-full mx-auto py-4 text-center">
+    Bu proje <a href="https://ademilter.com/" class="link" target="_blank">ademilter</a>'den esinlenerek Nuxt3 ile
+    geliştirilmiştir.
+  </footer>
+</template>
 
 <script setup lang="ts">
 // imports
