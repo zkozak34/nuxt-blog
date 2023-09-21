@@ -1,5 +1,7 @@
 <template>
-  <div>Home</div>
+  <div class="mt-9">
+    <HomeHero />
+  </div>
 </template>
 
 <script setup lang="ts">
