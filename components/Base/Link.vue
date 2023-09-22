@@ -4,7 +4,7 @@
       :to="to"
       :class="customClass"
       class="transition-all group-hover:text-gray-100"
-      exact-active-class="text-gray-100"
+      active-class="text-gray-100"
       ><slot
     /></nuxt-link>
   </span>

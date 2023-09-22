@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-9">
+  <div>
     <HomeHero />
   </div>
 </template>
