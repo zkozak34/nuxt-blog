@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <HomeHero />
-  </div>
+  <div>{{ route.params.slug }}</div>
 </template>
 
 <script setup lang="ts">
@@ -12,7 +10,7 @@
 // constants
 
 // composable
-
+const route = useRoute();
 // props
 
 // defineEmits

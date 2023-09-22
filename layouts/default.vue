@@ -2,7 +2,7 @@
   <div class="w-full h-full bg-zinc-900">
     <div class="max-w-3xl w-full mx-auto px-4 py-6 antialiased flex flex-col h-full">
       <Header />
-      <div class="flex-1 flex-shrink-0">
+      <div class="flex-1 flex-shrink-0 mt-9">
         <slot />
       </div>
       <Footer />
