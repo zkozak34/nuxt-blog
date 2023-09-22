@@ -1,5 +1,12 @@
 <template>
-  <div>{{ route.params.slug }}</div>
+  <ContentRenderer :value="data!">
+    <div class="prose">
+      <h1>{{ data!.title }}</h1>
+      <!-- <div class="border-b border-solid border-zinc-600"></div> -->
+      <ContentRendererMarkdown :value="data!" />
+    </div>
+  </ContentRenderer>
+  <!-- <pre>{{ data }}</pre> -->
 </template>
 
 <script setup lang="ts">
@@ -11,6 +18,7 @@
 
 // composable
 const route = useRoute();
+const { data } = await useAsyncData("post", () => queryContent("/posts").where({ slug: route.params.slug }).findOne());
 // props
 
 // defineEmits
